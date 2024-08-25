@@ -12,22 +12,20 @@ System.out.println("Значение переменной pears c типом int
 System.out.println("Значение переменной bananas c типом long равно " +bananas);
 System.out.println("Значение переменной plums c типом float равно " +plums);
 System.out.println("Значение переменной cherry c типом double равно " +cherry);
-        System.out.println();
-        float a = 27.12F;
-        long b = 987678965549L;
-        float c = 2.786F;
-        short d = 569;
-        short e =-159;
-        short f = 27897;
-        byte g = 67;
-        short student_L_P = 23;
-        short student_A_S = 27;
-        short student_E_A = 30;
+        float variableOne = 27.12F;
+        long variableTwo = 987678965549L;
+        float variableThree = 2.786F;
+        short variableFour = 569;
+        short variableFive =-159;
+        short variableSix = 27897;
+        byte variableSeven = 67;
+        short studentLP = 23;
+        short studentAS = 27;
+        short studentEA = 30;
         short A4 = 480;
-        int allStudent = (student_L_P + student_A_S + student_E_A);
+        int allStudent = (studentLP + studentAS + studentEA);
         int leaf = A4/allStudent;
         System.out.println("На каждого ученика рассчитано "+ leaf +" листов бумаги");
-        System.out.println();
         byte carBottleMin = 16/2;
         int bottle20 = carBottleMin *20;
         int bottleOneDay = carBottleMin * 60 *24;
@@ -37,7 +35,6 @@ System.out.println("Значение переменной cherry c типом do
         System.out.println("За сутки машина произвела " + bottleOneDay  +" штук бутылок");
         System.out.println("За 3 дня машина произвела " + bottleTreeDay  +" штук бутылок");
         System.out.println("За месяц машина произвела " + bottleOneMonth  +" штук бутылок");
-        System.out.println();
         byte allJar = 120;
         byte jarWhite = 2;
         byte jarBrown = 4;
@@ -45,7 +42,6 @@ System.out.println("Значение переменной cherry c типом do
         int allJarWhite = allClass*jarWhite;
         int allJarBrown = allClass*jarBrown;
         System.out.println("В школе, где " +allClass + " классов, нужно "+allJarWhite + " банок белой краски и "+allJarBrown+ " банок коричневой краски");
-        System.out.println();
         int banana = 5*80;
         double milk = 200*1.05;
         int iceCream = 2*100;
@@ -61,49 +57,29 @@ System.out.println("Значение переменной cherry c типом do
         System.out.println(loseweight2);
         int mean = (loseweigt1+ loseweight2)/2;
         System.out.println(mean);
-        System.out.println();
-        int payM = 67760;
-        int payD = 83690;
-        int payK = 76230;
-        int factorM = 67760 / 10;
-        int factorD = 83690 / 10;
-        int factorK = 76230 / 10;
-        int newPayM = payM+factorM;
-        int newPayD = payD+factorD;
-        int newPayK = payK+factorK;
-        int payYearOldM = 67760*12;
-        int payYearOldD = 83690*12;
-        int payYearOldK = 76230*12;
-        int factorYearM = newPayM*12;
-        int factorYearD = newPayD*12;
-        int factorYearK = newPayK*12;
-        int differencePayM = factorYearM -payYearOldM;
-        int differencePayD = factorYearD-payYearOldD;
-        int differencePayK = factorYearK-payYearOldK;
-        System.out.println("Маша теперь получает " +newPayM+ " рублей. " +
-                "Годовой доход вырос на "+ differencePayM +" рублей");
-        System.out.println("Денис теперь получает " +newPayD+ " рублей. " +
-                "Годовой доход вырос на "+ differencePayD +" рублей");
-        System.out.println("Кристина теперь получает " +newPayK+ " рублей. " +
-                "Годовой доход вырос на "+ differencePayK +" рублей");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        int Masha = 67760;
+        int Denis = 83690;
+        int Kris = 76230;
+        int factorMasha = 67760 / 10;
+        int factorDenis = 83690 / 10;
+        int factorKris = 76230 / 10;
+        int newPayMasha = Masha + factorMasha;
+        int newPayDenis = Denis + factorDenis;
+        int newPayKris = Kris + factorKris;
+        int payYearOldMasha = 67760*12;
+        int payYearOldDenis = 83690*12;
+        int payYearOldKris = 76230*12;
+        int newYearMasha = newPayMasha *12;
+        int newYearDenis = newPayDenis *12;
+        int newYearKris = newPayKris *12;
+        int differencePayMasha = newYearMasha - payYearOldMasha;
+        int differencePayDenis = newYearDenis - payYearOldDenis;
+        int differencePayKris = newYearKris - payYearOldKris;
+        System.out.println("Маша теперь получает " + newPayMasha + " рублей. " +
+                "Годовой доход вырос на "+ differencePayMasha +" рублей");
+        System.out.println("Денис теперь получает " + newPayDenis + " рублей. " +
+                "Годовой доход вырос на "+ differencePayDenis +" рублей");
+        System.out.println("Кристина теперь получает " + newPayKris + " рублей. " +
+                "Годовой доход вырос на "+ differencePayKris +" рублей");
     }
 }
