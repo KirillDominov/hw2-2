@@ -1,5 +1,85 @@
 public class Main {
     public static void main(String[] args) {
-
+byte aplles = 1;
+short oranges  = 2;
+int pears = 3;
+long bananas = 4L;
+float plums = 3.88F;
+double cherry = 1.234;
+System.out.println("Значение переменной aplles c типом byte равно " +aplles);
+System.out.println("Значение переменной oranges c типом short равно " +oranges);
+System.out.println("Значение переменной pears c типом int равно " +pears);
+System.out.println("Значение переменной bananas c типом long равно " +bananas);
+System.out.println("Значение переменной plums c типом float равно " +plums);
+System.out.println("Значение переменной cherry c типом double равно " +cherry);
+        float variableOne = 27.12F;
+        long variableTwo = 987678965549L;
+        float variableThree = 2.786F;
+        short variableFour = 569;
+        short variableFive =-159;
+        short variableSix = 27897;
+        byte variableSeven = 67;
+        short studentLP = 23;
+        short studentAS = 27;
+        short studentEA = 30;
+        short A4 = 480;
+        int allStudent = (studentLP + studentAS + studentEA);
+        int leaf = A4/allStudent;
+        System.out.println("На каждого ученика рассчитано "+ leaf +" листов бумаги");
+        byte carBottleMin = 16/2;
+        int bottle20 = carBottleMin *20;
+        int bottleOneDay = carBottleMin * 60 *24;
+        int bottleTreeDay = bottleOneDay * 3;
+        int bottleOneMonth = bottleOneDay * 30;
+        System.out.println("За 20 минут машина произвела " + bottle20  +" штук бутылок");
+        System.out.println("За сутки машина произвела " + bottleOneDay  +" штук бутылок");
+        System.out.println("За 3 дня машина произвела " + bottleTreeDay  +" штук бутылок");
+        System.out.println("За месяц машина произвела " + bottleOneMonth  +" штук бутылок");
+        byte allJar = 120;
+        byte jarWhite = 2;
+        byte jarBrown = 4;
+        int allClass = allJar/(jarBrown+jarWhite);
+        int allJarWhite = allClass*jarWhite;
+        int allJarBrown = allClass*jarBrown;
+        System.out.println("В школе, где " +allClass + " классов, нужно "+allJarWhite + " банок белой краски и "+allJarBrown+ " банок коричневой краски");
+        int banana = 5*80;
+        double milk = 200*1.05;
+        int iceCream = 2*100;
+        int egg = 4 *70;
+        double brekfast = banana+milk+iceCream+egg;
+        double brekfastKg = brekfast/1000;
+        System.out.println(brekfastKg);
+        System.out.println();
+        int weightGr = 7*1000;
+        int loseweigt1 = weightGr/250;
+        System.out.println(loseweigt1);
+        int loseweight2 = weightGr/500;
+        System.out.println(loseweight2);
+        int mean = (loseweigt1+ loseweight2)/2;
+        System.out.println(mean);
+        int Masha = 67760;
+        int Denis = 83690;
+        int Kris = 76230;
+        int factorMasha = 67760 / 10;
+        int factorDenis = 83690 / 10;
+        int factorKris = 76230 / 10;
+        int newPayMasha = Masha + factorMasha;
+        int newPayDenis = Denis + factorDenis;
+        int newPayKris = Kris + factorKris;
+        int payYearOldMasha = 67760*12;
+        int payYearOldDenis = 83690*12;
+        int payYearOldKris = 76230*12;
+        int newYearMasha = newPayMasha *12;
+        int newYearDenis = newPayDenis *12;
+        int newYearKris = newPayKris *12;
+        int differencePayMasha = newYearMasha - payYearOldMasha;
+        int differencePayDenis = newYearDenis - payYearOldDenis;
+        int differencePayKris = newYearKris - payYearOldKris;
+        System.out.println("Маша теперь получает " + newPayMasha + " рублей. " +
+                "Годовой доход вырос на "+ differencePayMasha +" рублей");
+        System.out.println("Денис теперь получает " + newPayDenis + " рублей. " +
+                "Годовой доход вырос на "+ differencePayDenis +" рублей");
+        System.out.println("Кристина теперь получает " + newPayKris + " рублей. " +
+                "Годовой доход вырос на "+ differencePayKris +" рублей");
     }
 }
